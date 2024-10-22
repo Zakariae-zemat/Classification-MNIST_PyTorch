@@ -72,7 +72,7 @@ def test(loader):
     return test_loss, accuracy
 
 
-epochs = 10
+epochs = 20
 train_losses, validation_losses, train_accuracies, validation_accuracies = [], [], [], []
 
 for epoch in range(1, epochs + 1):
